@@ -32,3 +32,6 @@ Usage:
 
 $ ./readabiility
 <snippet>
+
+![image](https://user-images.githubusercontent.com/100470956/175815223-6c1d70fd-a1f3-47b0-bfcc-35b1728f1daa.png)
+
