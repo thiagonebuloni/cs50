@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    // TODO: Solicite o valor inicial ao usuário
+    // gets the start size of the population
     int start_size;
     do
     {
@@ -11,7 +11,7 @@ int main(void)
     }
     while (start_size < 9);
 
-    // TODO: Solicite o valor final ao usuário
+    // gets the desired final size of the population
     int end_size;
     do
     {
@@ -19,7 +19,7 @@ int main(void)
     }
     while (end_size < start_size);
 
-    // TODO: Calcule o número de anos até o limite
+    // calculation
     int population = start_size;
     int years = 0;
     while (population < end_size)
@@ -28,6 +28,6 @@ int main(void)
         years++;
     }
 
-    // TODO: Imprima o número de anos
+    // outputs the number of years to achieve the end size
     printf("Years: %i\n", years);
 }
