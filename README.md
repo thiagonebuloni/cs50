@@ -35,3 +35,14 @@ $ ./readabiility
 
 ![image](https://user-images.githubusercontent.com/100470956/175815223-6c1d70fd-a1f3-47b0-bfcc-35b1728f1daa.png)
 
+=== 3 - substitution ===
+
+Given a key with a 26 alphabetic characters in any order and a plain text, returns a encrypted
+version based on the order of the characters in the key.
+
+Usage:
+
+$ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI
+<plain text>
+
+![image](https://user-images.githubusercontent.com/100470956/176780785-2445894e-f691-4bf0-a7eb-5da0b9a440c5.png)
