@@ -35,6 +35,7 @@ $ ./readabiility
 
 ![image](https://user-images.githubusercontent.com/100470956/175815223-6c1d70fd-a1f3-47b0-bfcc-35b1728f1daa.png)
 
+
 === 3 - substitution ===
 
 Given a key with a 26 alphabetic characters in any order and a plain text, returns a encrypted
@@ -46,3 +47,16 @@ $ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI
 <plain text>
 
 ![image](https://user-images.githubusercontent.com/100470956/176780785-2445894e-f691-4bf0-a7eb-5da0b9a440c5.png)
+
+
+=== 4 - caesar ===
+
+Program that implements the caesar encryption.
+It takes an integer argument as a key to how many rotations on the characters of the alphabet will be made to encrypt a plaintext.
+
+Usage:
+
+$ ./caesar 3
+<plain text>
+
+![image](https://user-images.githubusercontent.com/100470956/177042862-b7cbb7fe-c065-496e-ba5c-70180bbafe73.png)
