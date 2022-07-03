@@ -11,7 +11,7 @@ int main(int argc, string argv[]) {
         return 1;
     } else if (strlen(argv[1]) != 26) {
         printf("Use a 26 unique character key\nUsage ./substitution key\n");
-        return 1;
+        return 2;
     }
 
     // Converting argv string to char*
@@ -24,7 +24,7 @@ int main(int argc, string argv[]) {
             printf("%c\n", key[i]);
             printf("%d - %d - %d - %d\n", (int) key[i] < 65, (char) key[i] > 'Z', (char) key[i] < 'a', (char) key[i] > 'z');
             printf("Only key with 26 alphabetic characteres are acceptable.\n");
-            return 1;
+            return 3;
         }
 
         // Verifies if there's only unique characters, case sensitive
@@ -32,7 +32,7 @@ int main(int argc, string argv[]) {
             if (key[i] == key[k] || key[i] == (char) key[k] - 32 || (char) key[i] == key[k] + 32) {
                 printf("%c - %c\n", key[i], key[k]); // OK
                 printf("Only keys with 26 unique characteres are acceptable\n");
-                return 1;
+                return 4;
             }
         }
     }
