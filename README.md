@@ -81,4 +81,47 @@ Número: <card number>
 ```
 ![image](https://user-images.githubusercontent.com/100470956/178366155-5548e70c-15f0-4cf9-b9ca-3ce1a199015d.png)
 
-<plain text>
+
+## 6 - plurality
+
+Program that execute a simple voting process, plural vote.
+It takes the names of the candidates as arguments, asks the number of voters and each voters candidate.
+
+- if the candidate's name is entered incorrectly the program ends.
+
+Usage:
+```
+$ ./plurality Alice Bob Charlie
+Number of voters:
+Vote:
+Vote:
+.
+.
+.
+```
+![image](https://user-images.githubusercontent.com/100470956/178732640-bc67b3c7-9e73-40fa-82e8-14f8a3046258.png)
+
+
+## 7 - runoff
+
+Program that execute a plural voting process.
+Each voter chooses candidates in order of preference.
+
+- if the candidate's name is entered incorrectly the program ends.
+- the program eliminates candidates with fewer votes.
+- the program executes until there is a winner or all remaining candidate is tied.
+
+Usage:
+```
+$ ./runoff Alice Bob Charlie
+Number of voters:
+Rank 1:
+Rank 2:
+Rank 3:
+
+Rank 1:
+.
+.
+.
+```
+![image](https://user-images.githubusercontent.com/100470956/178733653-84009f1d-0bc0-4fe9-aa8a-18a900d1139f.png)
